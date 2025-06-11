@@ -34,6 +34,8 @@ Official Documentation:
 1. [Cookbook-Guide to Using the Responses API's MCP Tool](https://cookbook.openai.com/examples/mcp/mcp_tool_guide)
 1. [Using Pipedream MCP with OpenAI](https://pipedream.com/docs/connect/mcp/openai/)
 
+## N8N MCP Client Tool node
+1. [MCP Client Tool node](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolmcp/)
 ## Inforamtive Articles
 1. [MCP Security Notification: Tool Poisoning Attacks](https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks)
 1. [Top 12 Security Issues in Model Context Protocol (MCP) and How to Fix Them](https://adversa.ai/blog/mcp-security-issues/)
