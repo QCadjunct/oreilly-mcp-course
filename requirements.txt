@@ -1,19 +1,16 @@
 # Google ADK and dependencies
 google-adk==1.2.1
-google-genai==0.1.0
-# MCP SDK
-mcp==1.9.3
+google-genai>=1.17.0 # Changed to be compatible with google-adk
+# MCP SDK and Introduction Demo Requirements
+mcp[cli]==1.9.3 # Kept the more specific version
 # Utilities
 python-dotenv>=1.0.0
 rich>=13.0.0
-# Async support
-asyncio>=3.4.3
-# MCP Introduction Demo Requirements
-# Core MCP SDK
-mcp[cli]==1.9.3
 # Web framework for HTTP transport
 fastapi>=0.104.0
 uvicorn>=0.24.0
+# starlette is a dependency of fastapi, so explicitly listing it might be redundant
+# but keeping it doesn't hurt if you want to ensure a specific minimum version
 starlette>=0.27.0
 # HTTP client for testing
 httpx>=0.25.0

@@ -68,7 +68,7 @@ async def test_mcp_server():
                 # Test 5: Read a resource
                 print("\n📖 Testing Resources:")
                 try:
-                    greeting_result = await session.read_resource("demo://greeting/Alice")
+                    greeting_result = await session.read_resource("demo://greeting/Peter,Alice-is-no-longer-here!!")
                     print(f"   Greeting: {greeting_result.contents[0].text}")
                 except Exception as e:
                     print(f"   Resource error: {e}")

@@ -28,7 +28,7 @@ from datetime import datetime
 # Create an MCP server instance
 mcp = FastMCP("basic-demo")
 
-@mcp.tool()
+@mcp.tool() 
 def get_current_time() -> str:
     """
     Get the current time in ISO format.
