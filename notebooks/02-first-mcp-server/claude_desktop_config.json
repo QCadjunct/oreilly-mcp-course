@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "weather-assistant": {
-      "command": "python",
+      "command": ".venv/bin/python.exe",
       "args": [
         "/Users/greatmaster/Desktop/projects/oreilly-live-trainings/mcp-course/notebooks/02-first-mcp-server/weather_server.py"
       ],
